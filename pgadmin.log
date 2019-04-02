@@ -1,0 +1,15 @@
+2019-03-18 20:28:24 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2019-03-18 20:28:35 ERROR  : ERROR:  function pg_last_xlog_receive_location() does not exist
+LINE 1: ...E NULL END as inrecovery, CASE WHEN usesuper THEN pg_last_xl...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2019-03-18 20:28:36 ERROR  : Column not found in pgSet: usecreatedb
+2019-03-18 20:28:37 ERROR  : Column not found in pgSet: usesuper
+2019-03-18 20:28:38 ERROR  : Column not found in pgSet: upsince
+2019-03-18 20:28:38 ERROR  : Column not found in pgSet: confloadedsince
+2019-03-18 20:28:38 ERROR  : Column not found in pgSet: inrecovery
+2019-03-18 20:28:39 ERROR  : Column not found in pgSet: replayloc
+2019-03-18 20:28:39 ERROR  : Column not found in pgSet: receiveloc
+2019-03-18 20:28:39 ERROR  : Column not found in pgSet: replay_timestamp
+2019-03-18 20:28:40 ERROR  : Column not found in pgSet: isreplaypaused
